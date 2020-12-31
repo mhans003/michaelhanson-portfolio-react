@@ -10,7 +10,7 @@ function Home(props) {
         <div>
             <Header current={props.current}/>
             <Container main>
-                <h1 className="text-center mt-5">About Me</h1>
+                <h1 className="text-center mt-3">About Me</h1>
                 <hr/>
                 <Row>
                     <Col size="col-lg-6">
