@@ -20,6 +20,7 @@ function App() {
       <div>
         <Switch>
           <Route exact path="/" render={(props) => (<Home {...props} current="home"/>)}/>
+          <Route exact path="/home" render={(props) => (<Home {...props} current="home"/>)}/>
           <Route exact path="/portfolio" render={(props) => (<Portfolio {...props} current="portfolio"/>)}/>
           <Route exact path="/contact" render={(props) => (<Contact {...props} current="contact"/>)}/>
           <Route exact path="/resume" render={(props) => (<Resume {...props} current="resume"/>)}/>
