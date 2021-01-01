@@ -54,12 +54,20 @@ a:hover {
     color: #fff !important; 
 }
 
+.nav-link:active {
+    background-color: rgba(30,34,50,1.0) !important; 
+}
+
 .active {
     background-color: rgba(240,254,255,1.0); 
 }
 
 .active .nav-link {
     color: rgba(52,58,64,1.0) !important;
+}
+
+.active .nav-link:active {
+    background-color: rgba(240,254,255,1.0) !important;
 }
 
 /*Container Modifications*/
