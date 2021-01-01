@@ -5,8 +5,8 @@
 
 [React Portfolio - Michael Hanson](https://michaelhanson-react-portfolio.herokuapp.com/)
 
-![Homepage Screenshot](./assets/images/screenshot.jpg)
-![Portfolio Screenshot](./assets/images/screenshot2.jpg)
+![Homepage Screenshot](./public/assets/images/screenshot.jpg)
+![Portfolio Screenshot](./public/assets/images/screenshot2.jpg)
 
 ## Description
 
