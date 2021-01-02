@@ -54,7 +54,7 @@ a:hover {
     color: #fff !important; 
 }
 
-.nav-link:active {
+.nav-link:active, .nav-link:focus {
     background-color: rgba(30,34,50,1.0) !important; 
 }
 
