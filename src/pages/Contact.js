@@ -33,14 +33,14 @@ function Contact(props) {
                     text={"Email "} 
                     icon={"fas fa-envelope-open-text"} 
                     handleContactShow={handleContactShow}
-                    heading={"Email Michael Hanson"}
+                    heading={`Email`}
                     body={"michaeledwardhanson@gmail.com"}
                 />
                 <ContactButton 
                     text={"Phone "} 
                     icon={"fas fa-mobile-alt"}
                     handleContactShow={handleContactShow}
-                    heading={"Call or Text Michael Hanson"}
+                    heading={"Call or Text"}
                     body={"(951) 834-8219"}
                 />
                 <RedirectButton text={"GitHub "} icon={"fab fa-github"} url={"https://github.com/mhans003"}/>
