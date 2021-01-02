@@ -3,8 +3,6 @@ import { useState } from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Container from "../components/Container";
-import Row from "../components/Row";
-import Col from "../components/Col";
 import ContactButton from "../components/ContactButton";
 import RedirectButton from "../components/RedirectButton";
 import ContactModal from "../components/ContactModal";

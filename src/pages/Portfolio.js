@@ -2,7 +2,6 @@ import "./style.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Container from "../components/Container";
-import Row from "../components/Row";
 import PortfolioCardList from "../components/PortfolioCardList";
 
 function Portfolio(props) {

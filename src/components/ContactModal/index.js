@@ -1,5 +1,5 @@
 import { useState, useRef } from "react";
-import { Modal, Button, Container, Row, Col } from 'react-bootstrap';
+import { Modal } from 'react-bootstrap';
 
 function ContactModal(props) {
 
@@ -9,10 +9,6 @@ function ContactModal(props) {
     const copyText = (event) => {
         navigator.clipboard.writeText(`${props.body}`);
         setCopied("Copied!");
-        //contactRef.current.select();
-        //document.execCommand("copy");
-        //event.target.focus();
-        //setCopied("Copied!");
     };
 
     return (

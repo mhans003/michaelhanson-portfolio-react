@@ -1,5 +1,3 @@
-import Col from "../Col";
-import { useState, useEffect } from "react";
 import PortfolioItem from "../PortfolioItem";
 import Row from "../Row";
 
