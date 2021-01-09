@@ -3,6 +3,16 @@ import Row from "../Row";
 
 const projectData = [
     {
+        name: "React 'Aspirations' To-Do Application",
+        image: "aspirations2.jpg",
+        link: "https://aspirations-mh.herokuapp.com/register",
+        description: "Full-stack to-do-like application allows authenticated users to save aspirations and record milestones for each.",
+        technologies: "React Front-End, Node.js Back-End, Passport, React Context API, Bootstrap, MongoDB, Mongoose",
+        repo: "https://github.com/mhans003/react-aspirations-app",
+        guestUsername: "sample",
+        guestPassword: "sample12"
+    },
+    {
         name: "React Blog Application",
         image: "reactblog1.jpg",
         link: "https://blogapplication-mh.herokuapp.com/",
@@ -142,8 +152,8 @@ function PortfolioCardList() {
 
     return (
         <Row>
-            {projectData.map(project => {
-                return <PortfolioItem projectData={project}/>;
+            {projectData.map((project, index) => {
+                return <PortfolioItem key={index} projectData={project}/>;
             })}
         </Row>
     );
