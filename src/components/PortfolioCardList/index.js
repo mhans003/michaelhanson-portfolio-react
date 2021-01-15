@@ -3,6 +3,16 @@ import Row from "../Row";
 
 const projectData = [
     {
+        name: "React Library Book Search Application",
+        image: "reactlibrary1.jpg",
+        link: "https://reactlibrary-mh.herokuapp.com/",
+        description: "Full-stack MERN application allows users to search and save books of interest from the Google Books API.",
+        technologies: "React Front-End, Google Books API, Node.js Back-End, Passport, React Context API, Bootstrap, MongoDB, Mongoose",
+        repo: "https://github.com/mhans003/reactlibrary-mh",
+        guestUsername: "guest",
+        guestPassword: "guest"
+    },
+    {
         name: "React 'Aspirations' To-Do Application",
         image: "aspirations2.jpg",
         link: "https://aspirations-mh.herokuapp.com/register",
