@@ -13,6 +13,16 @@ const projectData = [
         guestPassword: "guest"
     },
     {
+        name: "Python News Application",
+        image: "pythonnews1.jpg",
+        link: "https://python-newsapp-mh.herokuapp.com/",
+        description: "Python-based application allows an authenticated user to create posts to articles/links and comment/vote on favorites.",
+        technologies: "Python, Flask, SQLAlchemy, Jinja, JavaScript, Bootstrap",
+        repo: "https://github.com/mhans003/python-newsapp",
+        guestUsername: "guest",
+        guestPassword: "guest"
+    },
+    {
         name: "React 'Aspirations' To-Do Application",
         image: "aspirations2.jpg",
         link: "https://aspirations-mh.herokuapp.com/register",
