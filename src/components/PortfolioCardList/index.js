@@ -23,6 +23,14 @@ const projectData = [
         guestPassword: "guest"
     },
     {
+        name: "Safety Consulting React Site",
+        image: "safetyconsulting.jpg",
+        link: "https://palomo-safety-consulting.herokuapp.com",
+        description: "Sample of Michael Hanson's front-end development and design work with React.",
+        technologies: "React, React Router, JavaScript, Bootstrap, React Bootstrap",
+        repo: "https://github.com/mhans003/matthew-palomo"
+    },
+    {
         name: "React 'Aspirations' To-Do Application",
         image: "aspirations2.jpg",
         link: "https://aspirations-mh.herokuapp.com/register",
