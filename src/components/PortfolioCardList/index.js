@@ -25,7 +25,7 @@ const projectData = [
     {
         name: "Safety Consulting React Site",
         image: "safetyconsulting.jpg",
-        link: "https://palomo-safety-consulting.herokuapp.com",
+        link: "https://safety-consulting-mh.herokuapp.com/",
         description: "Sample of Michael Hanson's front-end development and design work with React.",
         technologies: "React, React Router, JavaScript, Bootstrap, React Bootstrap",
         repo: "https://github.com/mhans003/matthew-palomo"
