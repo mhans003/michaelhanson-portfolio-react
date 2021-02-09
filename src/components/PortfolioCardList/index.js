@@ -23,12 +23,29 @@ const projectData = [
         guestPassword: "guest"
     },
     {
+        name: "Chitter Chatter (In Development)",
+        image: "chitterchatter.jpg",
+        link: "https://chitterchatter-app-mh.herokuapp.com",
+        description: "Recognition and team-based community chat application currently with account and chatroom functionality.",
+        technologies: "Node.js, Express, React, React Context API, Mongoose, MongoDB, Passport, Bootstrap, Pusher",
+        repo: "https://github.com/bbrintle/chitter-chatter",
+        isTeamProject: true
+    },
+    {
         name: "Safety Consulting React Site",
         image: "safetyconsulting.jpg",
         link: "https://safety-consulting-mh.herokuapp.com/",
         description: "Sample of Michael Hanson's front-end development and design work with React.",
         technologies: "React, React Router, JavaScript, Bootstrap, React Bootstrap",
         repo: "https://github.com/mhans003/matthew-palomo"
+    },
+    {
+        name: "'Idea Dump' AWS Blog Application",
+        image: "ideadump.jpg",
+        link: "http://3.131.94.211/",
+        description: "Full-stack application stores short blog/image posts by a user.",
+        technologies: "Amazon EC2 Instance (Ubuntu/NGINX), DynamoDB, S3 Bucket, Node.js, React, Multer",
+        repo: "https://github.com/mhans003/aws-idea-app"
     },
     {
         name: "React 'Aspirations' To-Do Application",
